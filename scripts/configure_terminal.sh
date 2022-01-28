@@ -16,4 +16,4 @@ rm -rf fonts
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # set agnoster for oh-my-zsh
-sed 's/^ZSH_THEME=.*$/ZSH_THEME="agnoster"/' ~/.zshrc
+sed -i '' 's/^ZSH_THEME=.*$/ZSH_THEME="agnoster"/' ~/.zshrc
