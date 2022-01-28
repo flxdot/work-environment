@@ -9,6 +9,7 @@ tap "microsoft/mssql-release"
 # general tools
 brew "mas" # required to install apps from MacAppStore
 brew "zsh" # my favorite shell
+cask "rectangle" # window manager
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "Keka", id: 470158793
