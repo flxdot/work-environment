@@ -26,24 +26,27 @@ brew "microsoft/mssql-release/msodbcsql17"
 brew "microsoft/mssql-release/mssql-tools"
 
 # python Development Tools
-cask "pycharm"
 brew "poetry"
 brew "python@3.8"
 brew "python@3.9"
 brew "python@3.10"
+cask "pycharm"
 
 # JS development
 brew "node"
 
 # Container development
-brew "minikube"
+brew "hyperkit" # small virtualization framework
 brew "kubernetes-cli"
+brew "minikube"
+brew "docker"
+brew "docker-compose"
 cask "lens"
 
 # Cloud development
 brew "awscli"
 brew "aws-iam-authenticator"
 
-# Documentation tools
+# Graphic tools
 cask "drawio"
 mas "Pixelmator Pro", id: 1289583905

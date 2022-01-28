@@ -1,14 +1,4 @@
 #!/bin/zsh
 
-# Install Powerline fonts (required to display oh-my-zsh theme properly
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
-
-# Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# set agnoster for oh-my-zsh
-sed 's/^ZSH_THEME=.*$/ZSH_THEME="agnoster"/' ~/.zshrc
+sh scripts/configure_terminal.sh
+sh scripts/configure_container_development.sh
