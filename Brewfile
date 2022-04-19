@@ -26,6 +26,9 @@ mas "Microsoft Remote Desktop", id: 1295203466
 brew "microsoft/mssql-release/msodbcsql17"
 brew "microsoft/mssql-release/mssql-tools"
 
+# Data engineering tools
+brew "dvc"
+
 # python Development Tools
 brew "poetry"
 brew "python@3.8"
