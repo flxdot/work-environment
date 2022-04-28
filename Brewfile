@@ -19,8 +19,12 @@ brew "git-flow"
 brew "pre-commit"
 cask "iterm2"
 cask "fig"
+cask "atom"
 mas "Kaleidoscope", id: 587512244
 mas "Microsoft Remote Desktop", id: 1295203466
+
+# Office/Documentation
+cask "mactex"
 
 # Database related tools
 brew "microsoft/mssql-release/msodbcsql17"
