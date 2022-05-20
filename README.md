@@ -14,6 +14,26 @@ Repo contains scripts and config files to quickly setup my default working envir
 
 ## Other helpfull scripts to quickly start
 
+### Install non default programs
+
+**dev-tools**
+
+```bash
+brew bundle install --file dev-tools/git.Brewfile
+brew bundle install --file dev-tools/python.Brewfile
+brew bundle install --file dev-tools/js.Brewfile
+brew bundle install --file dev-tools/container.Brewfile
+brew bundle install --file dev-tools/aws.Brewfile
+brew bundle install --file dev-tools/mssql.Brewfile
+```
+
+**general**
+
+```bash
+brew bundle install --file general/documentation.Brewfile
+brew bundle install --file general/graphic.Brewfile
+```
+
 ### Clone all my repos
 
 1. Authenticate the github CLI
@@ -24,6 +44,6 @@ Repo contains scripts and config files to quickly setup my default working envir
 2. Install all repositories
    ```bash
    gh repo list flxdot --limit 1000 | while read -r repo _; do
-     gh repo clone "$repo" "$repo"
+     gh repo clone "$repo" "~/Code/$repo"
    done
    ```
