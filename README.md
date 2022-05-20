@@ -11,3 +11,19 @@ Repo contains scripts and config files to quickly setup my default working envir
 5. Install most required software via brew:<br />`brew bundle install`
 6. Configure workstation by running:<br />`sh configure-workstation.sh`
 7. Import `iterm2/iterm2_profile.json` in iTerm2
+
+## Other helpfull scripts to quickly start
+
+### Clone all my repos
+
+1. Authenticate the github CLI
+   ```bash
+   gh auth login
+   ```
+
+2. Install all repositories
+   ```bash
+   gh repo list flxdot --limit 1000 | while read -r repo _; do
+     gh repo clone "$repo" "$repo"
+   done
+   ```
