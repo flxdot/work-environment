@@ -32,6 +32,7 @@ brew bundle install --file dev-tools/mssql.Brewfile
 ```bash
 brew bundle install --file general/documentation.Brewfile
 brew bundle install --file general/graphic.Brewfile
+brew bundle install --file general/office.Brewfile
 ```
 
 ### Clone all my repos
