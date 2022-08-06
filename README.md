@@ -12,7 +12,7 @@ Repo contains scripts and config files to quickly setup my default working envir
 6. Configure workstation by running:<br />`sh configure-workstation.sh`
 7. Import `iterm2/iterm2_profile.json` in iTerm2
 
-## Other helpfull scripts to quickly start
+## Other helpful scripts to quickly start
 
 ### Install non default programs
 

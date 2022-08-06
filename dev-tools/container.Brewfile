@@ -5,9 +5,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 # Container development
-brew "hyperkit" # small virtualization framework
+# brew "hyperkit" # small virtualization framework
 brew "kubernetes-cli"
-brew "minikube"
+# brew "minikube"
 brew "docker"
 brew "docker-compose"
 cask "lens"

@@ -8,7 +8,8 @@ tap "homebrew/services"
 brew "mas" # required to install apps from MacAppStore
 brew "zsh" # my favorite shell
 cask "rectangle" # window manager
-# mas "1Password 7", id: 1333542190
+cask "1Password"
+cask "Firefox"
 mas "Amphetamine", id: 937984704
 mas "Keka", id: 470158793
 
